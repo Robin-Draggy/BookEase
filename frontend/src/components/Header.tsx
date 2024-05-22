@@ -32,10 +32,10 @@ const Header = () => {
           ) : (
             <Link
               to="/sign-in"
-              className="flex bg-white items-center text-blue-600 px-3 font-bold hover:bg-gray-100"
+              className="flex bg-white rounded items-center text-blue-600 px-3 font-bold hover:bg-gray-100"
             >
               Sign In
-            </Link>
+            </Link> 
           )}
         </span>
       </div>
